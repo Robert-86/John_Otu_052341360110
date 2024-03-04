@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Education Website Using HTML, CSS & Javascript</title>
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"/>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/payment.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="department.html">Department</a></li>
+                <li><a href="timetable.html">Timetable</a></li>
+                <li><a href="payment.html">Payment</a></li>
+                
+                
+                
+ 
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+        </div> 
+    </nav>
+
+    <div class="container">
+        <br><br>
+        <h2>Student Payment Form</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="name">Amount:</label>
+                <input type="text" id="name" name="name" required>
+                
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="faculty">Faculty:</label>
+                <select id="faculty" name="faculty" required>
+                    <option value="">Select Faculty</option>
+                    <option value="Faculty 1">Faculty 1</option>
+                    <option value="Faculty 2">Faculty 2</option>
+                    <!-- Add more faculty options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="Department 1">Department 1</option>
+                    <option value="Department 2">Department 2</option>
+                    <!-- Add more department options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="program">Program:</label>
+                <select id="program" name="program" required>
+                    <option value="">Select Program</option>
+                    <option value="Program 1">Program 1</option>
+                    <option value="Program 2">Program 2</option>
+                    <!-- Add more program options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="level">Level:</label>
+                <select id="level" name="level" required>
+                    <option value="">Select Level</option>
+                    <option value="Level 1">Level 1</option>
+                    <option value="Level 2">Level 2</option>
+                    <!-- Add more level options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <br>
+            <button type="submit" class="buttons">Submit Payment</button>
+        </form>
+    </div>
+
+    </body>
+    </html>
+    
+
+
+
